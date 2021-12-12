@@ -15,8 +15,7 @@ a {
 }
 
 .bgc-lightblue {
-    background: lightblue;
-}
+  background: lightblue;
 }
 
 .bgc-lightgray {
@@ -27,8 +26,16 @@ a {
   background-color: orange;
 }
 
+.bgc-white {
+  background-color: white;
+}
+
 .c-white {
   color: white;
+}
+
+.c-lightgray {
+  color: lightgray;
 }
 
 .container {
@@ -40,7 +47,16 @@ a {
 }
 
 .fx-1 {
-    flex: 1;
+  flex: 1;
+}
+
+.bgc-g {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    177deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(236, 234, 255, 1) 100%
+  );
 }
 
 .jc-sb {
@@ -52,7 +68,7 @@ a {
 }
 
 .m {
-    margin: 1.5rem;
+  margin: 1.5rem;
 }
 
 .m0 {
@@ -80,12 +96,20 @@ a {
   text-align: left;
 }
 
+.underline:hover {
+  text-decoration: underline;
+}
+
 .w-100 {
   width: 100%;
 }
 
 .w-200 {
-    width: 200px;
+  width: 200px;
+}
+
+.w-50 {
+  width: 50%;
 }
 
 nav {
