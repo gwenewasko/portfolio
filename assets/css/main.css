@@ -1,9 +1,31 @@
+* {
+  margin: 0;
+}
+
 body {
   font-family: sans-serif;
 }
 
 a {
   text-decoration: none;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 10vw;
+  font-weight: 300;
+  line-height: 110%;
+  text-transform: uppercase;
+  max-width: 75vw;
+  color: black;
+}
+
+nav {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 1rem;
 }
 
 .ai-c {
@@ -19,7 +41,7 @@ a {
 }
 
 .bgc-lightgray {
-  background-color: lightgray;
+  background-color: rgb(160, 160, 160);
 }
 
 .bgc-orange {
@@ -35,7 +57,7 @@ a {
 }
 
 .c-lightgray {
-  color: lightgray;
+  color: rgb(136, 136, 136);
 }
 
 .container {
@@ -46,6 +68,26 @@ a {
   display: flex;
 }
 
+.f-oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+.f-400 {
+  font-weight: 400;
+}
+
+.f-caps {
+  text-transform: uppercase;
+}
+
+.f-size {
+  font-size: 1rem;
+}
+
+.fxw-w {
+  flex-wrap: wrap;
+}
+
 .fx-1 {
   flex: 1;
 }
@@ -53,9 +95,9 @@ a {
 .bgc-g {
   background: rgb(255, 255, 255);
   background: linear-gradient(
-    177deg,
+    180deg,
     rgba(255, 255, 255, 1) 0%,
-    rgba(236, 234, 255, 1) 100%
+    rgba(230, 231, 255, 1) 100%
   );
 }
 
@@ -81,6 +123,14 @@ a {
 
 .p {
   padding: 1.5rem;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.pos-b {
+  object-position: bottom;
 }
 
 .p0 {
@@ -110,6 +160,10 @@ a {
 
 .w-50 {
   width: 50%;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 nav {
