@@ -8,19 +8,28 @@ body {
 
 a {
   text-decoration: none;
+  color: rgb(131, 181, 247);
 }
 
 h1 {
   font-family: "Oswald", sans-serif;
-  font-size: 10vw;
+  font-size: 6rem;
   font-weight: 300;
-  line-height: 110%;
+  line-height: 115%;
   text-transform: uppercase;
   max-width: 75vw;
   color: black;
 }
 
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 6rem;
+}
+
 nav {
+  flex-wrap: wrap;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   letter-spacing: 3px;
@@ -84,6 +93,10 @@ nav {
   font-size: 1rem;
 }
 
+.f-size2 {
+  font-size: 2rem;
+}
+
 .fxw-w {
   flex-wrap: wrap;
 }
@@ -121,8 +134,15 @@ nav {
   margin-left: 1rem;
 }
 
+.line-h {
+  line-height: 2rem;
+}
 .p {
-  padding: 1.5rem;
+  padding: 2rem;
+}
+
+.p-1 {
+  padding: 1rem;
 }
 
 .pos-r {
@@ -146,12 +166,24 @@ nav {
   text-align: left;
 }
 
+.t-center {
+  text-align: center;
+}
+
 .underline:hover {
   text-decoration: underline;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .w-100 {
   width: 100%;
+}
+
+.w-sm {
+  width: 1rem;
 }
 
 .w-200 {
@@ -166,11 +198,11 @@ nav {
   width: 100%;
 }
 
-nav {
+.z-index {
   z-index: 1;
 }
 
-/* media query */
+/* media queries */
 @media (min-width: 768px) {
   .d-f\@lrg {
     display: flex;
