@@ -45,6 +45,15 @@ nav {
   background-color: black;
 }
 
+.bgc-g {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(230, 231, 255, 1) 100%
+  );
+}
+
 .bgc-lightblue {
   background: lightblue;
 }
@@ -61,16 +70,16 @@ nav {
   background-color: white;
 }
 
-.c-white {
-  color: white;
-}
-
 .c-lightgray {
   color: rgb(136, 136, 136);
 }
 
 .container {
   position: relative;
+}
+
+.c-white {
+  color: white;
 }
 
 .d-f {
@@ -105,17 +114,12 @@ nav {
   flex: 1;
 }
 
-.bgc-g {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(230, 231, 255, 1) 100%
-  );
-}
-
 .jc-sb {
   justify-content: space-between;
+}
+
+.line-h {
+  line-height: 2rem;
 }
 
 .lis-n {
@@ -134,27 +138,24 @@ nav {
   margin-left: 1rem;
 }
 
-.line-h {
-  line-height: 2rem;
-}
 .p {
   padding: 2rem;
+}
+
+.p0 {
+  padding: 0;
 }
 
 .p-1 {
   padding: 1rem;
 }
 
-.pos-r {
-  position: relative;
-}
-
 .pos-b {
   object-position: bottom;
 }
 
-.p0 {
-  padding: 0;
+.pos-r {
+  position: relative;
 }
 
 .sticky {
@@ -162,12 +163,12 @@ nav {
   top: 0;
 }
 
-.t-left {
-  text-align: left;
-}
-
 .t-center {
   text-align: center;
+}
+
+.t-left {
+  text-align: left;
 }
 
 .underline:hover {
@@ -186,16 +187,16 @@ nav {
   width: 1rem;
 }
 
-.w-200 {
-  width: 200px;
-}
-
 .w-50 {
   width: 50%;
 }
 
 .w-100 {
   width: 100%;
+}
+
+.w-200 {
+  width: 200px;
 }
 
 .z-index {
