@@ -59,7 +59,7 @@ nav {
 }
 
 .bgc-lightgray {
-  background-color: rgb(160, 160, 160);
+  background-color: rgb(189, 189, 189);
 }
 
 .bgc-orange {
@@ -204,7 +204,7 @@ nav {
 }
 
 .w-sm {
-  width: 1rem;
+  width: 1.5rem;
 }
 
 .w-50 {
@@ -231,5 +231,18 @@ nav {
 
   .ml\@lrg {
     margin-left: 1.5rem;
+  }
+
+  .ord-1\@lrg {
+    order: 1;
+  }
+
+  .ord-2\@lrg {
+    order: 2;
+  }
+}
+@media screen and (max-width: 767px) {
+  .miw-100\@sml {
+    min-width: 100%;
   }
 }
