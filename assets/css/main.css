@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 a {
@@ -98,6 +98,15 @@ nav {
   display: inline;
 }
 
+.dropdown {
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  background-color: white !important;
+  border-radius: 20px;
+}
+
 .f-oswald {
   font-family: "Oswald", sans-serif;
 }
@@ -126,6 +135,20 @@ nav {
   flex: 1;
 }
 
+.hamburger {
+  display: none;
+}
+
+.hamburger-bar {
+  display: block;
+  width: 25px;
+  height: 1px;
+  margin: 8px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #7e7e7e;
+}
+
 .jc-sb {
   justify-content: space-between;
 }
@@ -142,6 +165,13 @@ nav {
   margin: 1.5rem;
 }
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
 .m-large {
   margin: 3rem;
 }
@@ -154,8 +184,13 @@ nav {
   margin-left: 1rem;
 }
 
+.nav-link {
+  transition: 0.7s ease;
+  text-underline-offset: 5px;
+}
+
 .p {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .p-large {
@@ -223,6 +258,10 @@ nav {
   z-index: 1;
 }
 
+.nav-link:hover {
+  transition: all 0.3s ease-in-out;
+}
+
 /* media queries */
 @media (min-width: 768px) {
   .d-f\@lrg {
@@ -244,5 +283,33 @@ nav {
 @media screen and (max-width: 767px) {
   .miw-100\@sml {
     min-width: 100%;
+  }
+  .hamburger {
+    display: block;
+    float: right;
+  }
+  .logo {
+    max-width: 100px;
+  }
+  .menu {
+    z-index: 1;
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0px;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding-top: 20px;
+    margin-top: 2px;
+  }
+  .nav-link {
+    margin: 16px 0;
+  }
+
+  .menu.active {
+    left: 0;
   }
 }

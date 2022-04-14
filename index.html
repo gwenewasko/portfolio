@@ -11,28 +11,33 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Gwen Ewasko</title>
 </head>
 
 <body>
     <nav class="ai-c bgc-white d-f jc-sb p sticky d-f@lrg">
         <div>
-            <img class="w-50" src="./assets/images/Gwen-logomark.png" alt="Gwen Ewasko">
+            <img class="logo w-50" src="./assets/images/Gwen-logomark.png" alt="Gwen Ewasko">
         </div>
-        <ul class="ai-c d-f fxw-w lis-n m m0 p">
-            <li class="underline ml@lrg"><a class="c-lightgray" href="#aboutme">About Me</a></li>
-            <li class="underline ml@lrg"><a class="c-lightgray" href="#work">Work</a></li>
-            <li class="underline ml@lrg"><a class="c-lightgray" href="#resume">Resume</a></li>
-            <li class="underline ml@lrg"><a class="c-lightgray" href="#contact">Contact</a></li>
+        <ul class="ai-c d-f fxw-w lis-n m menu m0 p">
+            <li class="underline ml@lrg nav-link"><a class="c-lightgray" href="#aboutme">About Me</a></li>
+            <li class="underline ml@lrg nav-link"><a class="c-lightgray" href="#work">Work</a></li>
+            <li class="underline ml@lrg nav-link"><a class="c-lightgray" href="#resume">Resume</a></li>
+            <li class="underline ml@lrg nav-link"><a class="c-lightgray" href="#contact">Contact</a></li>
             </li>
         </ul>
         </div>
+        <div class='hamburger'>
+            <span class='hamburger-bar'></span>
+            <span class='hamburger-bar'></span>
+            <span class='hamburger-bar'></span>
+        </div>
     </nav>
     <section class="bgc-g d-f fxw-w">
-        <div class="p m-left">
-            <h1>Hello, <br> I'm Gwen.</h1>
-            <p class="f-oswald f-400 f-size">I am a designer and web developer.</p>
+        <div class="p ms">
+            <h1 class="">Hello, <br> I'm Gwen.</h1>
+            <h3 class="f-oswald f-400 f-size">I am a designer and web developer.</h3>
         </div>
         <div><img class="pos-b w-100" src="./assets/images/gwen-cutout_crop-sm.png" alt="Gwen's Headshot">
         </div>
@@ -43,9 +48,9 @@
     <section id="aboutme" class="d-f fxw-w m p">
         <div>
             <h2>About Me</h2>
-            <p class="c-lightgray line-h f-oswald">My name is Gwen Ewasko, I have been a designer and brand specialist
-                for
-                the better part of 10 years both in an agency and in-house. My experience is in creative brand
+            <p class="c-lightgray line-h f-oswald">My name is Gwen Ewasko, I am a multidisciplinary designer with
+                experience in both traditional media, as well as full-stack develoment. My experience is in creative
+                brand
                 management --
                 from traditional to digital mediums, to messaging and strategy. I believe a brand is as good as the
                 story
@@ -73,6 +78,7 @@
         </div>
         <img class="align-middle col-6 miw-100@sml" src="./assets/images/quiz-game-screenshot.png" alt="">
     </div>
+    <hr>
     <div class="row p align-items-center d-flex">
         <div class="col-6 f-oswald p miw-100@sml ord-2@lrg">
             <span class="">
@@ -87,12 +93,27 @@
         </div>
         <img class="col-6 d-flex ord-1@lrg miw-100@sml" src="./assets/images/best-shot-screen-shot.png" href="" alt="">
     </div>
+    <hr>
+    <div class="row p">
+        <div class="col-6 d-flex align-items-center f-oswald p miw-100@sml">
+            <span>
+                <h3>Petrol Pirate</h3>
+                <p class="c-lightgray">An application that stores gas prices submitted by authenticated users based on
+                    location in Cook County.</p>
+                <a target="_blank" href="https://github.com/TeamHBs/petrol-pirate"><button type="button"
+                        class="btn btn-sm btn-outline-dark rounded-pill">Repo</button></a>
+                <a target="_blank" href="https://hbs-project-two.herokuapp.com/login"><button type="button"
+                        class="btn btn-sm btn-outline-dark rounded-pill">Application</button></a>
+            </span>
+        </div>
+        <img class="align-middle col-6 miw-100@sml" src="./assets/images/petrol-pirate-app-screenshot.png" alt="">
+    </div>
     <!-- Resume -->
     <section id="resume" class="d-f fxw-w m p">
         <div>
             <h2>Resume</h2>
             <p class="c-lightgray line-h f-oswald">Click <a target="_blank"
-                    href="./assets/images/gwen-ewasko-resume.pdf"><strong>HERE</a></strong>
+                    href="./assets/images/Gwen-Ewasko-Resume (1).pdf"><strong>HERE</a></strong>
                 to take a look.
             </p>
         </div>
@@ -117,5 +138,6 @@
         </div>
     </footer>
 </section>
+<script src="./assets/js/style.js"></script>
 
 </html>
